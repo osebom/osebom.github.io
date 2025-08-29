@@ -52,10 +52,11 @@
       </div>
       <nav>
         <a onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">Projects</a>
+        <a onclick="document.getElementById('awards').scrollIntoView({behavior: 'smooth'})">Awards</a>
         <a onclick="document.getElementById('experience').scrollIntoView({behavior: 'smooth'})">Experience</a>
         <a onclick="document.getElementById('skills').scrollIntoView({behavior: 'smooth'})">Skills</a>
         <a onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact</a>
-        <a class="btn" href="OJ Onyeagwu Resume 2025.pdf" download>Download Resume</a>
+        <a class="btn" href="OJ Onyeagwu AI Scientist Resume.pdf" download>Download Résumé</a>
       </nav>
     </header>
 
@@ -73,7 +74,7 @@
 
         <article class="card">
           <h3>Semantic Search & Recommender Enhancements (Vector Institute)</h3>
-          <p>Revamped Vector Partner Portal search via embeddings + Cohere re-rank and added recommendation carousel; built ingestion to keep content fresh with Cohere tools.</p>
+          <p>Revamped Vector Institute's Partner Portal search via embeddings + re-rank and added a recommendation carousel; built ingestion pipelines to keep content fresh.</p>
           <div class="list">
             <span class="pill">Flask</span><span class="pill">Qdrant</span><span class="pill">GCP</span><span class="pill">Cohere Re-rank & Embed 3</span>
           </div>
@@ -82,7 +83,19 @@
             <span><a href="https://vectorinstitute.ai/transforming-user-experiences-with-ai-ojs-internship-success/" target="_blank">Case Study</a></span>
           </div>
         </article>
-        
+
+        <article class="card">
+          <h3>Instacart Meal Prep Discovery with LLMs</h3>
+          <p>Prototype exploring how LLMs can enhance Instacart search results by suggesting meal‑prep inspired recipes. Uses grocery datasets and Cohere to generate meal ideas based on queries.</p>
+          <div class="list">
+            <span class="pill">LLMs</span><span class="pill">Cohere</span><span class="pill">Python</span><span class="pill">Kaggle Dataset</span>
+          </div>
+          <div class="row" style="margin-top:10px">
+            <span>2025</span>
+            <span><a href="https://github.com/osebom/instacart_discovery" target="_blank">Code</a></span>
+          </div>
+        </article>
+
         <article class="card">
           <h3>RAG Chatbot for Analyzing Simplii (CIBC) Customer Reviews</h3>
           <p>Vector Institute RAG Bootcamp build to surface insights from Simplii (CIBC) customer reviews—automatic filtering and review summarization.</p>
@@ -92,18 +105,6 @@
           <div class="row" style="margin-top:10px">
             <span>Dec 2024 – Feb 2025</span>
             <span><a href="https://github.com/osebom/vector_ragbootcamp" target="_blank">Code</a></span>
-          </div>
-        </article>
-
-        <article class="card">
-          <h3>Instacart Discovery with LLMs</h3>
-          <p>Prototype exploring how LLMs can enhance Instacart search results by suggesting meal‑prep inspired recipes. Uses grocery datasets and Cohere to generate meal ideas based on queries.</p>
-          <div class="list">
-            <span class="pill">LLMs</span><span class="pill">Cohere</span><span class="pill">Python</span><span class="pill">Kaggle Dataset</span>
-          </div>
-          <div class="row" style="margin-top:10px">
-            <span>2025</span>
-            <span><a href="https://github.com/osebom/instacart_discovery" target="_blank">Code</a></span>
           </div>
         </article>
 
@@ -121,12 +122,23 @@
       </div>
     </section>
 
+    <section id="awards" style="margin-top:20px">
+      <h2>Awards</h2>
+      <article class="card">
+        <div class="row"><h3 style="margin:0">CIFAR Inclusive AI Scholarship | Vector Institute</h3><span>October 2024 – December 2024</span></div>
+        <ul style="margin:8px 0 0 18px; color: var(--muted)">
+          <li>Awarded CIFAR AI Scholarship as part of Vector Institute's Black & Indigenous Applied Internship Program</li>
+        </ul>
+      </article>
+    </section>
+
     <section id="experience" style="margin-top:20px">
       <h2>Experience</h2>
       <article class="card">
         <div class="row"><h3 style="margin:0">Data Engineer (Consultant, Business Effectiveness) — CIBC</h3><span>Sep 2024 – Present · Toronto · Hybrid</span></div>
         <ul style="margin:8px 0 0 18px; color: var(--muted)">
           <li>Design & maintain data pipelines with Azure Databricks, PySpark, SAS, Oracle & Azure SQL for product analytics & ad performance.</li>
+          <li>Building agentic workflows with Azure AI to automate analytics for product sales</li>
           <li>Organized data flows connecting Adobe Analytics clickstream to Azure SQL Server client data.</li>
           <li>Partner with product teams to evaluate features and automate analytics for launches.</li>
         </ul>
