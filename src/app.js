@@ -43,7 +43,7 @@ function updateCountdown() {
   const hours = Math.floor((totalSeconds % 86400) / 3600);
   const minutes = Math.floor((totalSeconds % 3600) / 60);
   const seconds = totalSeconds % 60;
-  secondsEl.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  if (secondsEl) secondsEl.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 }
 
 updateCountdown();

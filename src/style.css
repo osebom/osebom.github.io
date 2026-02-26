@@ -10,6 +10,17 @@
   --radius: 18px;
 }
 
+@font-face {
+  font-family: "Bitcount Single";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    url(https://cdn.jsdelivr.net/fontsource/fonts/bitcount-single@latest/latin-400-normal.woff2) format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/bitcount-single@latest/latin-400-normal.woff) format("woff");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -49,7 +60,7 @@ a:hover {
 .topbar-contact {
   display: flex;
   gap: 16px;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 500;
 }
 
@@ -496,16 +507,18 @@ a:hover {
 
 .music-title {
   font-family: "VT323", ui-monospace, SFMono-Regular, monospace;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: -0.01em;
+  line-height: 1.1;
 }
 
 .music-artist {
   font-family: "VT323", ui-monospace, SFMono-Regular, monospace;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   color: #111111;
+  line-height: 1.1;
 }
 
 .music-count {
@@ -516,12 +529,12 @@ a:hover {
 }
 
 .music-seconds {
-  font-family: "ZCOOL QingKe HuangYou", "VT323", ui-monospace, monospace;
-  font-size: 22px;
+  font-family: "Bitcount Single", "ZCOOL QingKe HuangYou", "VT323", ui-monospace, monospace;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1;
   color: #8a8a8a;
-  word-spacing: 2px;
+  word-spacing: 1px;
   max-width: 100%;
   white-space: nowrap;
 }
